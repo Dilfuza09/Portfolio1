@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.star {
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    position: relative;
+}
+
+
+.uzum {
+    color: white;
+    font-family: sans-serif;
+
+}
+
+a {
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    max-width: 150px;
+    color: white;
+}
+
+
+.mama {
+    color: white;
+    font-family: sans-serif;
+}
+
+
+.food {
+    color: white;
+    font-family: sans-serif;
+}
+
+
+.star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+@media (max-width: 1200px) {
+
+
+
+    .star {
+        flex-wrap: wrap;
+    }
+
+}
